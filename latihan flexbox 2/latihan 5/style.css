@@ -1,0 +1,21 @@
+.container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 5px solid black;
+  display: flex;
+}
+
+.kotak  {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.kotak span {
+  margin: auto;
+}
