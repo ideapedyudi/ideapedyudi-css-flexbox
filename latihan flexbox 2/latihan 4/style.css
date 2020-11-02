@@ -1,15 +1,28 @@
 .container {
   width: 800px;
   margin: 50px auto;
+  display: flex;
 }
 
 .card {
   border: 1px solid #999;
   border-radius: 10px;
   background-color: #eee;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
 }
 
 .card .header {
   height: 150px;
-  background-color: ;
+  background-color: #666;
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card.besar {
+  transform: scale(1.12);
 }
