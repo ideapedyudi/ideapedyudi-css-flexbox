@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.layanan.satu {
+  background-color: lightblue;
+}
+
+.layanan.dua {
+  background-color: lightgreen;
+}
+
+.layanan.tiga {
+  background-color: salmon;
+}
+
+/* responsive */
+@media(min-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.card {
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.card .header {
+  height: 150px;
+  background-color: ;
+}
